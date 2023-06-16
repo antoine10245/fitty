@@ -13,6 +13,7 @@ declare module 'fitty' {
   export interface FittyInstance {
     element: HTMLElement
     fit: () => void
+    fitAll: () => void
     freeze: () => void
     unfreeze: () => void
     unsubscribe: () => void
